@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DD0F660549FB1D882BF5A10 /* Pods_SixthSense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A312CB87AAAEBCD6B128F05F /* Pods_SixthSense.framework */; };
 		FBDA64F32132CA010086C09E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA64F22132CA010086C09E /* AppDelegate.swift */; };
 		FBDA64F52132CA010086C09E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA64F42132CA010086C09E /* ViewController.swift */; };
 		FBDA64F82132CA010086C09E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDA64F62132CA010086C09E /* Main.storyboard */; };
 		FBDA64FA2132CA020086C09E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDA64F92132CA020086C09E /* Assets.xcassets */; };
-		FBDA64FD2132CA020086C09E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDA64FB2132CA020086C09E /* LaunchScreen.storyboard */; };
+		FBDA650E2132CB130086C09E /* CVPixelBuffer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA65052132CB120086C09E /* CVPixelBuffer+Helpers.swift */; };
+		FBDA650F2132CB130086C09E /* Launch in Resources */ = {isa = PBXBuildFile; fileRef = FBDA65062132CB130086C09E /* Launch */; };
+		FBDA65102132CB130086C09E /* TinyYOLO.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FBDA65072132CB130086C09E /* TinyYOLO.mlmodel */; };
+		FBDA65112132CB130086C09E /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA65082132CB130086C09E /* VideoCapture.swift */; };
+		FBDA65122132CB130086C09E /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA65092132CB130086C09E /* UIImage+CVPixelBuffer.swift */; };
+		FBDA65132132CB130086C09E /* YOLO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA650A2132CB130086C09E /* YOLO.swift */; };
+		FBDA65142132CB130086C09E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA650B2132CB130086C09E /* Helpers.swift */; };
+		FBDA65152132CB130086C09E /* SixthSense.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA650C2132CB130086C09E /* SixthSense.swift */; };
+		FBDA65192132CCEC0086C09E /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA65182132CCEC0086C09E /* BoundingBox.swift */; };
+		FBDA651B2132CCFE0086C09E /* dog416.png in Resources */ = {isa = PBXBuildFile; fileRef = FBDA651A2132CCFE0086C09E /* dog416.png */; };
+		FBDA651D2132CD390086C09E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDA651C2132CD390086C09E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39A356A51A9605140C3CF6B5 /* Pods-SixthSense.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SixthSense.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SixthSense/Pods-SixthSense.debug.xcconfig"; sourceTree = "<group>"; };
+		7D5E48FEED8258CA38DC8175 /* Pods-SixthSense.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SixthSense.release.xcconfig"; path = "Pods/Target Support Files/Pods-SixthSense/Pods-SixthSense.release.xcconfig"; sourceTree = "<group>"; };
+		A312CB87AAAEBCD6B128F05F /* Pods_SixthSense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SixthSense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDA64EF2132CA010086C09E /* SixthSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SixthSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDA64F22132CA010086C09E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBDA64F42132CA010086C09E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FBDA64F72132CA010086C09E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBDA64F92132CA020086C09E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FBDA64FC2132CA020086C09E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBDA64FE2132CA020086C09E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBDA65052132CB120086C09E /* CVPixelBuffer+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Helpers.swift"; sourceTree = "<group>"; };
+		FBDA65062132CB130086C09E /* Launch */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Launch; sourceTree = "<group>"; };
+		FBDA65072132CB130086C09E /* TinyYOLO.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TinyYOLO.mlmodel; sourceTree = "<group>"; };
+		FBDA65082132CB130086C09E /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		FBDA65092132CB130086C09E /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		FBDA650A2132CB130086C09E /* YOLO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YOLO.swift; sourceTree = "<group>"; };
+		FBDA650B2132CB130086C09E /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		FBDA650C2132CB130086C09E /* SixthSense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixthSense.swift; sourceTree = "<group>"; };
+		FBDA65182132CCEC0086C09E /* BoundingBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
+		FBDA651A2132CCFE0086C09E /* dog416.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog416.png; sourceTree = "<group>"; };
+		FBDA651C2132CD390086C09E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD0F660549FB1D882BF5A10 /* Pods_SixthSense.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		461328820A4A6CA84697A688 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39A356A51A9605140C3CF6B5 /* Pods-SixthSense.debug.xcconfig */,
+				7D5E48FEED8258CA38DC8175 /* Pods-SixthSense.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		819F3DD17978AD39F1B268E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A312CB87AAAEBCD6B128F05F /* Pods_SixthSense.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FBDA64E62132CA010086C09E = {
 			isa = PBXGroup;
 			children = (
 				FBDA64F12132CA010086C09E /* SixthSense */,
 				FBDA64F02132CA010086C09E /* Products */,
+				461328820A4A6CA84697A688 /* Pods */,
+				819F3DD17978AD39F1B268E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +98,32 @@
 		FBDA64F12132CA010086C09E /* SixthSense */ = {
 			isa = PBXGroup;
 			children = (
+				FBDA65062132CB130086C09E /* Launch */,
+				FBDA650C2132CB130086C09E /* SixthSense.swift */,
 				FBDA64F22132CA010086C09E /* AppDelegate.swift */,
 				FBDA64F42132CA010086C09E /* ViewController.swift */,
 				FBDA64F62132CA010086C09E /* Main.storyboard */,
 				FBDA64F92132CA020086C09E /* Assets.xcassets */,
-				FBDA64FB2132CA020086C09E /* LaunchScreen.storyboard */,
+				FBDA651C2132CD390086C09E /* LaunchScreen.storyboard */,
+				FBF4BFF02132D467002A6EAA /* YoloV3 */,
 				FBDA64FE2132CA020086C09E /* Info.plist */,
 			);
 			path = SixthSense;
+			sourceTree = "<group>";
+		};
+		FBF4BFF02132D467002A6EAA /* YoloV3 */ = {
+			isa = PBXGroup;
+			children = (
+				FBDA651A2132CCFE0086C09E /* dog416.png */,
+				FBDA65072132CB130086C09E /* TinyYOLO.mlmodel */,
+				FBDA65092132CB130086C09E /* UIImage+CVPixelBuffer.swift */,
+				FBDA65082132CB130086C09E /* VideoCapture.swift */,
+				FBDA650A2132CB130086C09E /* YOLO.swift */,
+				FBDA65182132CCEC0086C09E /* BoundingBox.swift */,
+				FBDA65052132CB120086C09E /* CVPixelBuffer+Helpers.swift */,
+				FBDA650B2132CB130086C09E /* Helpers.swift */,
+			);
+			path = YoloV3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBDA65012132CA020086C09E /* Build configuration list for PBXNativeTarget "SixthSense" */;
 			buildPhases = (
+				84575A7AF7203042FC504D4E /* [CP] Check Pods Manifest.lock */,
 				FBDA64EB2132CA010086C09E /* Sources */,
 				FBDA64EC2132CA010086C09E /* Frameworks */,
 				FBDA64ED2132CA010086C09E /* Resources */,
+				7DF8E592CF601273B1F2CDA7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +186,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBDA64FD2132CA020086C09E /* LaunchScreen.storyboard in Resources */,
+				FBDA651B2132CCFE0086C09E /* dog416.png in Resources */,
+				FBDA650F2132CB130086C09E /* Launch in Resources */,
 				FBDA64FA2132CA020086C09E /* Assets.xcassets in Resources */,
 				FBDA64F82132CA010086C09E /* Main.storyboard in Resources */,
+				FBDA651D2132CD390086C09E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DF8E592CF601273B1F2CDA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SixthSense/Pods-SixthSense-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Piano/Piano.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Piano.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SixthSense/Pods-SixthSense-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84575A7AF7203042FC504D4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SixthSense-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FBDA64EB2132CA010086C09E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBDA650E2132CB130086C09E /* CVPixelBuffer+Helpers.swift in Sources */,
+				FBDA65122132CB130086C09E /* UIImage+CVPixelBuffer.swift in Sources */,
+				FBDA65112132CB130086C09E /* VideoCapture.swift in Sources */,
+				FBDA65142132CB130086C09E /* Helpers.swift in Sources */,
 				FBDA64F52132CA010086C09E /* ViewController.swift in Sources */,
+				FBDA65192132CCEC0086C09E /* BoundingBox.swift in Sources */,
 				FBDA64F32132CA010086C09E /* AppDelegate.swift in Sources */,
+				FBDA65132132CB130086C09E /* YOLO.swift in Sources */,
+				FBDA65102132CB130086C09E /* TinyYOLO.mlmodel in Sources */,
+				FBDA65152132CB130086C09E /* SixthSense.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,14 +262,6 @@
 				FBDA64F72132CA010086C09E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FBDA64FB2132CA020086C09E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBDA64FC2132CA020086C09E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,11 +383,14 @@
 		};
 		FBDA65022132CA020086C09E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39A356A51A9605140C3CF6B5 /* Pods-SixthSense.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S4W4S3W3Y3;
 				INFOPLIST_FILE = SixthSense/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +404,14 @@
 		};
 		FBDA65032132CA020086C09E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5E48FEED8258CA38DC8175 /* Pods-SixthSense.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S4W4S3W3Y3;
 				INFOPLIST_FILE = SixthSense/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

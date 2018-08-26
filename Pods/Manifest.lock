@@ -1,0 +1,16 @@
+PODS:
+  - Piano (1.7)
+
+DEPENDENCIES:
+  - Piano (~> 1.7)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Piano
+
+SPEC CHECKSUMS:
+  Piano: 857bf066ad5c42298127ebd0936115bc7f5ec89d
+
+PODFILE CHECKSUM: 3f28ed3fc500726c2b9d24e6e7993a44eb156052
+
+COCOAPODS: 1.5.2
